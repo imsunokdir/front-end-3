@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div><h2>Multiple Timers App</h2></div>
+      <div class="timer-div">
+        <div class="set-time">Set time</div>
+        <div class="time">
+          <input type="number" placeholder="hh" id="hh" />
+          <p>:</p>
+          <input type="number" placeholder="mm" id="mm" />
+          <p>:</p>
+          <input type="number" placeholder="ss" id="ss" />
+        </div>
+        <div class="set-btn-div">
+          <button class="set-btn" id="set-btn">Set</button>
+        </div>
+      </div>
+      <div class="cur-timer-div">
+        <div class="curr-timer-h"><p>current timers</p></div>
+        <div class="current-timers" id="current-timers">
+          <p id="no-timers-message" style="display: none">
+            You have no timers currently
+          </p>
+        </div>
+      </div>
+    </div>
+    <audio
+      id="alarm-sound"
+      src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg"
+    ></audio>
+    <script src="script.js"></script>
+  </body>
+</html>

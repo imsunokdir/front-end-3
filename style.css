@@ -1,0 +1,120 @@
+* {
+  /* background-color: red; */
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1d1d23;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 10px;
+}
+
+.timer-div {
+  display: flex;
+  background-color: #34344a;
+  width: 500px;
+  height: 60px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+  font-size: 1.4em;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #34344a;
+
+  height: 100%;
+}
+.time p {
+  background-color: #34344a;
+}
+.set-time {
+  background-color: #34344a;
+}
+.set-btn-div {
+  background-color: yellow;
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+}
+.stop-button,
+.set-btn {
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+}
+.set-btn:hover {
+  cursor: pointer;
+}
+
+input {
+  width: 50px;
+  height: 40px;
+  border: none;
+  background-color: #34344a;
+  text-align: center; /* Ensure text inside the input is centered */
+  color: white;
+  font-size: 20px;
+}
+input::placeholder {
+  text-align: center;
+  font-size: 1.4em;
+  text-decoration: underline;
+  /* background-color: blue; */
+  width: 100%;
+  height: 100%;
+  /* Removed unnecessary properties */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.current-timers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timer-div {
+  margin-top: 5px;
+}
+
+.cur-timer-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.curr-timer-h {
+  background-color: #39393e;
+  height: 50px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 15px;
+}
+.curr-timer-h p {
+  background-color: #39393e;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 550;
+}
