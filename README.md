@@ -15,7 +15,7 @@ A user-friendly web application that allows users to set and manage multiple tim
 4. When a timer ends, it changes its appearance and plays a notification sound.
 
 ## Demo
-[Check out the live app here!](https://imsunokdir.github.io/front-end-3/)
+[Check out the live app here!](https://imsunokdir.github.io/Multiple-Timer/)
 
 ## Built With
 - **HTML** for structure.
